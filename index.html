@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Marcel Leite de Farias">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .footerdireitos {
+            background-color:rgb(145, 145, 145) !important;
+        }
+        
+    </style>
+
+    <title>Atividade - bootstrap</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(145, 145, 145);">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Casa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Imagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Artigos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Redes sociais</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item " href="#">Instagram</a></li>
+                            <li><a class="dropdown-item " href="#">Facebook</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item " href="#">Linkedin</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1400x500/?sunshine" class="d-block w-100" alt="paisagem, por do sol">
+                </div>
+                <div class="carousel-item">
+                <img src="https://source.unsplash.com/1400x500/?sunshine" class="d-block w-100" alt="paisagem, por do sol">
+                </div>
+                <div class="carousel-item">
+                <img src="https://source.unsplash.com/1400x500/?sunshine" class="d-block w-100" alt="paisagem, por do sol">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/300x200/?sunshine" class="card-img-top" alt="paisagem, céu">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/300x200/?sunshine" class="card-img-top" alt="paisagem, céu">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/300x200/?sunshine" class="card-img-top" alt="paisagem, céu">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-12 text-center fs-2 fw-bold my-2"><p>Artigos</p></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 p-5">
+                    <img src="https://source.unsplash.com/1400x800/?sunshine" class="d-block w-100 " alt="paisagem, por do sol">
+                </div>
+                <div class="col-sm-6">
+                    <p>O Richelieu foi um navio couraçado operado pela Marinha Nacional Francesa e a primeira embarcação da Classe Richelieu, sendo seguido pelo Jean Bart, Clemenceau e Gascogne, porém os dois últimos não foram finalizados. Sua construção começou em outubro de 1935 em resposta à italiana Classe Littorio, sendo lançado em janeiro de 1939. Seus trabalhos de construção foram acelerados à medida que uma guerra contra a Alemanha ficou cada vez mais provável, com ele sendo comissionado às pressas em abril de 1940. O projeto do Richelieu e seus irmãos, foi baseado em seus predecessores da Classe Dunkerque, tendo mantido o mesmo arranjo incomum da bateria principal de duas torres de artilharia quádruplas montadas na proa do navio. Era armado com oito canhões de 380 milímetros, tinha deslocamento de mais quarenta mil toneladas e conseguia alcançar uma velocidade de mais de trinta nós. Italiana Classe Littorio, sendo lançado em janeiro de 1939. Seus trabalhos de construção foram acelerados à medida que uma guerra contra a Alemanha ficou cada vez mais provável, com ele sendo comissionado às pressas em abril de 1940. O projeto do Richelieu e seus irmãos, foi baseado em seus predecessores da Classe Dunkerque, tendo mantido o mesmo arranjo incomum da bateria principal de duas torres de artilharia quádruplas montadas na proa do navio. Era armado com oito canhões de 380 milímetros, tinha deslocamento de mais quarenta mil toneladas e conseguia alcançar uma velocidade de mais de trinta nós</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-sm-12 text-center fs-2 fw-bold text-white"><p>Contato</p></div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 ">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-6">
+                        <label for="exampleFormControlTextarea1" class="form-label text-white">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <br>
+                        <div class="botao text-center">
+                            <button type="button" class="btn btn-outline-success m-2 ">Success</button>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-sm-12 text-white footerdireitos py-2">
+                    <p class="mb-0">Desenvolvido por Marcel Leite de Farias &copy; todos os direitos reservados </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
